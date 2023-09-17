@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+   
+{% block title %} Dupolx - Merci pour la commande
+    
+{% endblock title %}
+{% block homeactive %} active {% endblock homeactive %}
+
+{% block Description %}Dupolx est une société internationale de produits basée au Maroc, qui propose des services d'achat de produits. Contact ...{% endblock Description %}
+
+
+{% block Keywords %}Dupolx, Produits, Acheter, Produits, Etc..{% endblock Keywords %}
+
+
+{% block body %}
+
+{% load static %}
+<hr>
+<div class="container ">
+	<div class="jumbotron text-center">
+  <h1 class="display-3">Merci !</h1>
+  <p class="lead"><strong>Vos produits ont été commandés.</strong> Une personne de notre équipe vous contactera sous peu.</p>
+  <hr>
+
+
+  <p>
+    Avez-vous des problèmes ? <a href="#">Contactez-nous : +212 669345678</a>
+  </p>
+  <p class="lead">
+    <a class="btn btn-primary btn-sm" href="/" role="button">Continuer vers la page d'accueil</a>
+  </p>
+</div>
+</div>
+
+    
+{% endblock body %}
